@@ -1,0 +1,140 @@
+body{
+  background-color: #ECEFF1;
+  font-family: 'Roboto', sans-serif;
+}
+/* Secondary Navigation */
+nav ul{
+  background-color: #263238;
+  list-style-type: none;
+  overflow: hidden;
+  margin-bottom: 0;
+  padding-bottom: .3%;
+  padding-top: .3%;
+  margin-top: 0;
+}
+li{
+  display: inline;
+  color: #18A9DE;
+}
+li:hover{
+  background-color: #FF3D00;
+  color: #03A9F4;
+}
+#rightSide{
+  text-align: right;
+  padding-right: 8%;
+}
+
+/* Page Title */
+main h1{
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: .5%;
+  padding-bottom: .5%;
+}
+#redText{
+   color: red;
+   margin-left: 8%;
+}
+.whiteText{
+  color: white;
+  margin-left: .5%;
+}
+ h1, h3 {
+  background-image: url("images/header-background.png");
+}
+/* Primary Navigation */
+#secondNav ul{
+  background-color: #607D8B;
+  margin-top: 0;
+}
+#moveRight{
+  padding-left: 8%;
+}
+/* All Sections */
+section{
+  margin-left: 8%;
+  margin-right: 8%;
+  background-color: white;
+}
+/* Photo Section */
+.center{
+  margin-left: 8%;
+  margin-right: 8%;
+  padding-top: 2%;
+  padding-bottom: .5%;
+  background-color: white;
+}
+figure img{
+  border: solid;
+  border-color: #DCDCDC;
+  padding: 1%;
+  margin-left: 40%;
+}
+figcaption{
+  margin-left: 40%;
+  font-size: 20px;
+  font-weight: bold;
+}
+/* All Sections EXCEPT First */
+.border{
+  border-style: solid;
+  margin-bottom: 2%;
+  border-color: #607D8B;
+}
+/* Tables */
+th{
+  color: #A0A0A0;
+  font-weight: 200;
+  font-style: italic;
+  float: left;
+}
+/* Personal Details Section*/
+section h3{
+  margin-top: 0;
+  color: white;
+  padding: 1%;
+}
+/* Buttons */
+article{
+  background-color: #607D8B;
+}
+.fas {
+  color: black;
+}
+.button{
+  background-color: #FF3D00;
+  border: none;
+  color: white;
+  padding: .8% 2%;
+  margin: .60%;
+  border-radius: 4px;
+  text-decoration: none;
+  display: inline-block;
+}
+/* Contact Links */
+dl a{
+  color: #18A9DE;
+}
+/* Chart Section */
+#fill{
+  width: 100%;
+  height: auto;
+}
+/* Footer */
+footer{
+  background-color: #263238;
+  font-size: 10px;
+}
+footer p{
+  padding-left: 8%;
+  color: white;
+  padding-top: .5%;
+  padding-bottom: .5%;
+}
+footer p a{
+  color: #18A9DE;
+}
+footer p em{
+  color: white;
+}
